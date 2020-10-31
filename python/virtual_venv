@@ -1,0 +1,13 @@
+pip3 install virtualenv
+
+//create new venv inside directoryt
+python3 -m venv env   
+
+
+apt install python3-venv
+
+
+source env/bin/activate   --to go into venv environement
+
+
+deactivate  
