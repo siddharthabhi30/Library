@@ -1,0 +1,92 @@
+
+
+Streanm<PErson>
+
+.map(EMployee::getAddresss)---we now have stream of addresses
+.map(Address::getcity)
+
+
+peek -- prints without terminating
+
+
+.strems()
+.allmatch
+
+streams.min(comparator)
+
+
+comparator again
+
+
+.inPresent
+
+
+strings.streams().max(Comparator.compareInt(Strign::Length))
+
+binary operation streams
+
+
+reduction and collectors
+
+accumulator adn combiner
+
+
+String builder in streams
+using T in java
+
+collect   factory accumulator combiner
+
+compartator.compareTOint
+
+
+
+grouping and key streams
+
+stream of primitive types
+
+map flatmap  intuniary operator
+
+
+IntStreams rangeClosed
+
+forEachORdered
+
+streams.range
+
+optionalStream
+
+map to primitive stream or mapToDouble
+
+.average
+
+.sorted in streams and how to use it 
+
+USing Arrays.stream
+
+
+STream on build on arrays
+
+ordered and sequential stream
+
+
+using stream in collections
+
+
+gfenerate in streams
+
+
+streams iterate
+
+lazyevaluation and eager evaluation
+
+Streams.of
+
+flatmap operation
+
+using .limit at the starting
+
+Monad ,unit operation 
+bind operation
+
+
+

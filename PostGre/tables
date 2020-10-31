@@ -1,0 +1,61 @@
+
+
+create table USER_INFO(
+USER_NAME VARCHAR(255),
+PASSWORD VARCHAR(255),
+POSITIVE FLOAT,
+NEGATIVE FLOAT,
+CONSTRAINT USER_PRIMARY_KEY PRIMARY KEY (USER_NAME)
+);
+
+create table post(
+POSITIVE FLOAT,
+NEGATIVE FLOAT,
+DATA VARCHAR(4000),
+POST_ID VARCHAR(255),
+USER_NAME VARCHAR(255),
+CONSTRAINT POST_EMAIL_FOREIGN_KEY FOREIGN KEY (USER_NAME) REFERENCES USER_INFO (USER_NAME),
+CONSTRAINT POST_PRIMARY_KEY PRIMARY KEY (POST_ID)
+);
+
+create table comment_INFO(
+COMMENT_ID VARCHAR(255),
+DATA VARCHAR(4000),
+TITLE VARCHAR(255),
+POST_ID VARCHAR(255),
+CONSTRAINT COMMENT_POST_FOREIGN_KEY FOREIGN KEY (POST_ID) REFERENCES POST (POST_ID),
+CONSTRAINT COMMENT_PRIMARY_KEY PRIMARY KEY (COMMENT_ID)
+);
+
+INSERT INTO USER_INFO VALUES('sid1','sid1',0,0);
+
+INSERT INTO USER_INFO VALUES('sid2','sid2',0,0);
+
+INSERT INTO USER_INFO VALUES('sid3','sid3',0,0);
+
+INSERT INTO post VALUES(0,0,'first post','post1','sid2');
+
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/postdb
+
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/postdb
+
+spring.datasource.username=sid
+
+spring.datasource.password=sid
+
+
+<dependency>
+  <groupId>org.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
+  <version>9.4-1206-jdbc42</version>
+</dependency>
+
+
+extra line in application properties
+
+
+extra spring jdbc in dependencies

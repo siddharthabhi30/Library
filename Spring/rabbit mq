@@ -1,0 +1,14 @@
+soumil shah vid on rabbit mq
+
+https://medium.com/@kiranbs890/rabbitmq-setup-on-local-machine-windows-958bada6003c   installation guide
+
+producer will genberate messages
+
+
+his git hub link
+https://github.com/soumilshah1995/rabbitmq-python-server-client/tree/master/Sender%20and%20receiver%20code
+
+
+we send messages to ezxchange with binding key 
+
+we need to specifdy routinh key otherwise message will be lost

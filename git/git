@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=uUzRMOCBorg
+
+https://www.youtube.com/watch?v=jEN3D9EN7ss
+
+we cant get data of master on a feature branch if fdeature branch's change is not merged
+
+rebasing in git https://www.youtube.com/watch?v=dqVqMwLzOjU
+
+
+git checkout -b <branch-name> # Create a new branch and check it out
+
+git push <remote-name> <branch-name> 
+
+
+for us remote is origin
+
+git commit -m "M1"
+
+git remote add origin https://github.com/siddharthabhi30/sadwd.git
+
+git push -u origin master
+
+git checkout -b dev1
+
+git checkout master
+git checkout dev1
+
+git pull origin master
+
+if one one side merge conflit is resolved then on the other side also while merging ...origins own feature may be deletd because of how dev1 has
+merged his code....overall merge merge conflit wont occure if something is already done on a bracnh with own branch
+
+git branch -d branch_naem to delete a branch

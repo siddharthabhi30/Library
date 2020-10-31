@@ -1,0 +1,56 @@
+FunctionalInterface is used to annotate those interfaces that are to be used in lambda contexts.
+
+
+https://www.infoworld.com/article/3452018/get-started-with-lambda-expressions.html
+
+
+type inference in lambda
+
+
+@FunctionalInterface
+interface Condition
+{
+    boolean test(Person p);
+}
+
+predicate is a simple boolean interface
+
+wrapper class in lambda can help to access even private variable
+
+closure in lambda expressions -- closure stores the real values -- compiler expects it to be final
+
+
+we can use toString for some object also if we want and also use tostring to interfaceImpl classes
+
+
+we can replace arr.forEach(p->sout(p))   to (system.out::println)
+
+using parallel streams
+
+type inference check the type os object
+
+anonymous classes create a new object unlike pure lambda expression
+
+
+if lambda is taking a stsaic or final variab;le then it createes only one object
+
+but if it takes a priovate method or variable then everytime new object is created in a loop
+
+
+g(f(x))  -- can be done by  g.compose(f)
+
+(Person p)->{p.getName()} ===(Person::getName)
+
+
+
+Streanm<PErson>
+
+.map(EMployee::getAddresss)---we now have stream of addresses
+.map(Address::getcity)
+
+
+peek -- prints without terminating
+
+
+method reference ---
+https://www.geeksforgeeks.org/method-references-in-java-with-examples/

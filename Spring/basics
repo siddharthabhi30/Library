@@ -1,0 +1,24 @@
+@PRimary is used when two impls are there o or we can use 
+name of the autowired variable as the name of that impl component
+
+
+but PRimary has higher priority 
+
+logging.level.org.springframework=debug   --we get to know what is happening
+
+request - one bean per http request
+session - one bean per http session
+
+
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+
+if dependency is prototype but not base classs then proxy is used 
+
+
+
+postCOnstruct -- as soon as bean is created post construct is created
+
+predestroy
+
+
+we can also use named or inject for autowire

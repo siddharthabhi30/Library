@@ -1,0 +1,44 @@
+https://www.springboottutorial.com/integration-testing-for-spring-boot-rest-services
+
+
+integration with rest services
+my proj name student-service
+
+
+https://stackoverflow.com/questions/16467685/difference-between-mock-and-injectmocks
+
+
+//nice tutorial
+https://www.springboottutorial.com/spring-boot-unit-testing-and-mocking-with-mockito-and-junit  
+
+Testing 13 worked
+
+simple get request testing-   @Test
+    void hello() throws Exception{
+        RequestBuilder request=get("/hello");
+        MvcResult result=mvc.perform(request).andReturn();
+        assertEquals("hello, World",result.getResponse().getContentAsString());
+
+    }
+
+    https://github.com/siddharthabhi30/againIntellij.git
+
+
+
+    we can use assert true or assert false other than assertEquals
+    assertnull`
+
+
+with xml we use 
+@RunWith(SpringRunner.class)
+@ContextConfiguration(locations = "/applicationContext.xml") to load bean
+
+@ContextConfiguration(classes = cDIdAORunner.class ) to load beans from other place
+
+
+we can create external xml and there import the other xml or we can iverride
+
+if we want to
+
+
+using spring actuator

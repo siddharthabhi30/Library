@@ -1,0 +1,23 @@
+2 camunda tutorial for java developers -- imp
+
+bpmn post request is wroking with post request
+http://localhost:8080/engine-rest/process-definition/key/name-change-request2/start
+dzone video
+
+
+{
+  "variables":{
+      "amount":{"value":"2400","type":"long"}
+       
+  } 
+
+ 
+}
+
+camunda course on documentaston is good-   https://docs.camunda.org/get-started/quick-start/service-task/
+
+
+https://www.youtube.com/watch?v=cUR0IgjIJmQ  for learning about embedded processes
+
+
+

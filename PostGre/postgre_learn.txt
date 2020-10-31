@@ -1,0 +1,8 @@
+create database postdb
+
+to see all the tables --\dt
+
+\x to have expanded display--very useful
+
+
+in a database we can grant a user, all schemas   of the table

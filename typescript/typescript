@@ -1,0 +1,9 @@
+ setTimeout(() => 
+    {
+      this.flip=false;
+    },
+    0);
+
+window.location.reload();
+
+The Angular Location service is used to interact with the browser URL. We can use it to track the URL changes. Use it to read the current URL, modify the URL, go back or forward through the browser history, etc. In this article, we will look at how to make use of Angular Location service. We learn how to make use of location.back(), location.forward(), location.path(), location.go(), location.replacestate(), location.getState(), location.onUrlChange() etc

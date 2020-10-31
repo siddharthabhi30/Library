@@ -1,0 +1,12 @@
+Dependencies as REST Repositories and package name will be com.sid.start
+
+
+11
+
+It should be under src/main/resources directory,
+
+The full path will be /src/main/resources/META-INF/persistence.xml
+
+After creating the META-INF folder under resources directory and having a persistence.xml file loads the entityMangerFactory bean properly,
+
+<property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml" /
