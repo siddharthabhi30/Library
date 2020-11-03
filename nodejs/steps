@@ -1,0 +1,49 @@
+npm install
+
+express hellowordl
+
+
+ SET DEBUG=hello:* & npm start - to start the app
+
+ npm install --save-dev nodemon  - to install for only development
+
+ SET DEBUG=express-locallibrary-tutorial:* & npm run devstart
+
+get request from nodejs
+
+ var options = {
+    host: 'localhost',
+    port: 7474,
+    path: '/db/data',
+    method: 'GET',
+    headers: {
+        accept: 'application/json'
+    }
+};
+
+console.log("Start");
+var x = http.request or get without  .end() (options,function(res){
+    use utf *
+    console.log("Connected");
+    res.on('data',function(data){
+        console.log(data);
+    });
+});
+
+
+x.end();
+
+
+require('http').get('http://httpbin.org/ip', (res) => {
+    res.setEncoding('utf8');
+    res.on('data', function (body) {
+        console.log(body);
+    });
+});
+
+mongodb
+
+npm install mongoose
+
+
+ 
