@@ -45,5 +45,15 @@ mongodb
 
 npm install mongoose
 
+//here 123 is the input in nodejs
+node app 123
+
+we can store system variable by export name=sid in cmd
+
+see it in process.env.var_name 
+
+
+`${data}`  here \we are converting something to utf 8
+
 
  

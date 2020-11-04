@@ -22,7 +22,7 @@ npm install -D typescript
 //for tsconfig.json
 npx tsc -init
 
->npm install express @types/express
+npm install express @types/express
 
 npm run tsc
 
