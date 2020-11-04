@@ -6,4 +6,28 @@
 
 window.location.reload();
 
+
+we can use lite serveer from npm init and use it to create a server which router to all the files
+see "one" prij in typescript proj
+
+==============================================
+
+nodejs with typescript
+https://medium.com/@pankaj.itdeveloper/getting-started-using-typescript-with-node-js-and-express-6aff573667d5
+
+npm init -y
+
+npm install -D typescript
+
+//for tsconfig.json
+npx tsc -init
+
+>npm install express @types/express
+
+npm run tsc
+
+node servewr.js
+
+---------=================================
+
 The Angular Location service is used to interact with the browser URL. We can use it to track the URL changes. Use it to read the current URL, modify the URL, go back or forward through the browser history, etc. In this article, we will look at how to make use of Angular Location service. We learn how to make use of location.back(), location.forward(), location.path(), location.go(), location.replacestate(), location.getState(), location.onUrlChange() etc

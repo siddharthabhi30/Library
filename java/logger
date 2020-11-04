@@ -1,0 +1,4 @@
+static Logger logger = Logger.getLogger(SampleClass.class.getName());
+
+
+
