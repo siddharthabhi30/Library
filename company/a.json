@@ -1,0 +1,44 @@
+{
+    "correlationData":"FullLocal040902",
+    "lineItemId":3054349,
+    "activityId":3054965,
+    "activityTypeId":2000803,
+    "activityType":"Save Stitch Description",
+    "status":"COMPLETED",
+    "errorCode":"",
+    "errorMessage":"",
+    "dateTime": "2020-09-04T10:34:08.419Z",
+    "scheduleCode": "FullLocal040902Enc",
+    "windowID": "FullLocal040902",
+    "fileName": "demoscene2_Nick1"
+  }
+  
+  
+  {
+    "correlationId":"FullLocal040902",
+    "scheduleCode": "FullLocal040902Enc",
+    "windowID": "FullLocal040902",
+    "seriesName": "Henry Danger",
+    "seasonNumber": "3",
+    "episodeNumber": 318,
+    "episodeTitle": "Balloons Of Doom",
+    "networkName": "Nick",
+    "partnerName": "CBS All Access Sumit",
+    "lineItemId":3054349,
+    "activityId":3054965,
+    "activityTypeId":2000803,
+    "activityType":"Save Stitch Description",
+    "workflowState":"Save Stitch Description",
+    "status":"COMPLETED",
+    "workflowStatus":"COMPLETED",
+    "language":"en-US",
+    "materialType":"Caption",
+    "dsids" :[ "HDRUO108A1","HDRUO108A2","HDRUO108A3"],
+    "workFlowName":"UWFDOMESTIC",
+    "errorCode":"",
+    "errorMessage":"",
+    "updatedDate": "2020-11-05T06:55:13.071Z",
+    "createdBy": "CBS Rohan Test"
+  }
+  
+  In Progress
