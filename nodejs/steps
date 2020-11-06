@@ -76,6 +76,6 @@ const title=process.argv[3]||'new blog post';
 
 node myApp arg1 arg2 
 
-s
+ss
 
 =====================================
