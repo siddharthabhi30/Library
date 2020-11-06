@@ -79,3 +79,7 @@ node myApp arg1 arg2
 ss
 
 =====================================
+
+nodemon actyually starts js file with watching
+
+versioning -- the :^ sign represent if new versio is available ... download it 
