@@ -30,4 +30,27 @@ node servewr.js
 
 ---------=================================
 
-The Angular Location service is used to interact with the browser URL. We can use it to track the URL changes. Use it to read the current URL, modify the URL, go back or forward through the browser history, etc. In this article, we will look at how to make use of Angular Location service. We learn how to make use of location.back(), location.forward(), location.path(), location.go(), location.replacestate(), location.getState(), location.onUrlChange() etc
+should not use 
+let no:number=34;
+because typscript has its own inference
+
+Object type typescript
+
+const person:{
+    name:string,
+    age:number
+}={
+    name:'maximulia',
+    age:34
+
+}
+console.log(person.name)
+
+or basic just person={
+  fds
+  dfs
+}
+let typescipt do its job
+
+person;Object == will give errors ,, because we are not telling anything to typescript
+===========================

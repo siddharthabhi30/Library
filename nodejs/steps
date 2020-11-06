@@ -54,6 +54,27 @@ see it in process.env.var_name
 
 
 `${data}`  here \we are converting something to utf 8
+==================================================================
 
+Again nodejs with typescript traversy media
+
+tscconfig we can change wjere ts to js happen we can control it 
+
+tsc --init  //init for typescript
+
+npom install express
+
+npm i -D typescript ts-node nodemon @types/node @types/express
 
  
+=====================
+ taking argument in node js
+
+ const author=process.argv[2]||'unknown';
+
+const title=process.argv[3]||'new blog post';
+
+node myApp arg1 arg2 
+
+
+=====================================
