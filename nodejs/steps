@@ -169,3 +169,57 @@ function add(n1:number,n2:number):undefined | void{
 }
 
 ==========================================================
+
+if we say my_var_having_funtion:Function;;
+//Function is a type
+
+========================
+
+
+function add(n1:number,n2:number){
+    return n1+n2;
+   
+}
+
+function add2(n1:number,n2:number){
+    return n1+n2+"s";
+   
+}
+let combine=add;
+
+
+
+let combine: (n1: number, n2: number) => number
+
+we dont have to write this normally but if explicitely a variable is defined 
+and used else where then we need this thing
+
+========================================
+
+
+
+
+call back function
+
+if in recursive function passing at the end the argument receiving functions says w return void then we 
+really return void irrespective all the front functions are returnning value
+
+===============
+
+
+in call back function get the return type of rool function that has made the
+the function body 
+
+
+
+
+void says we ignore what are you doing
+
+typscript is not strict in call back function return type
+
+
+That's correct. As you learned, callback 
+functions can return something, even if the 
+argument on which they're passed does NOT expect a returned value.
+=========================
+
