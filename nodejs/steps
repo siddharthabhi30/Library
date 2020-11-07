@@ -83,3 +83,89 @@ ss
 nodemon actyually starts js file with watching
 
 versioning -- the :^ sign represent if new versio is available ... download it 
+
+
+
+=============================
+
+ setTimeout(() => 
+    {
+      this.flip=false;
+    },
+    0);
+
+window.location.reload();
+
+
+we can use lite serveer from npm init and use it to create a server which router to all the files
+see "one" prij in typescript proj
+
+==============================================
+
+nodejs with typescript
+https://medium.com/@pankaj.itdeveloper/getting-started-using-typescript-with-node-js-and-express-6aff573667d5
+
+npm init -y
+
+npm install -D typescript
+
+//for tsconfig.json
+npx tsc -init
+
+npm install express @types/express
+
+npm run tsc
+
+node servewr.js
+
+---------=================================
+
+should not use 
+let no:number=34;
+because typscript has its own inference
+
+Object type typescript
+
+const person:{
+    name:string,
+    age:number
+}={
+    name:'maximulia',
+    age:34
+
+}
+console.log(person.name)
+
+or basic just person={
+  fds
+  dfs
+}
+let typescipt do its job
+
+person;Object == will give errors ,, because we are not telling anything to typescript
+===========================
+
+
+type Combinable=number|string;
+
+type CombinableDescriptor='as-number' | 'as-text' ;
+
+
+function combine(
+  input1: Combinable,
+  input2: number | string, //this is union type
+  resultConversion:CombinableDescriptor // this is literal types
+
+
+
+  ===============================
+
+
+this is OK
+  function return type cant be undefined if it is not returnning anything 
+function add(n1:number,n2:number):undefined | void{
+    return;
+   
+}
+
+==========================================================

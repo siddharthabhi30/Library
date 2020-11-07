@@ -54,3 +54,27 @@ let typescipt do its job
 
 person;Object == will give errors ,, because we are not telling anything to typescript
 ===========================
+
+
+type Combinable=number|string;
+
+type CombinableDescriptor='as-number' | 'as-text' ;
+
+
+function combine(
+  input1: Combinable,
+  input2: number | string, //this is union type
+  resultConversion:CombinableDescriptor // this is literal types
+
+
+
+  ===============================
+
+
+this is OK
+  function return type cant be undefined if it is not returnning anything 
+function add(n1:number,n2:number):undefined | void{
+    return;
+   
+}
+
