@@ -6,3 +6,5 @@ to see all the tables --\dt
 
 
 in a database we can grant a user, all schemas   of the table
+
+d
