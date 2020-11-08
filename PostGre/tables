@@ -58,4 +58,7 @@ spring.datasource.password=sid
 extra line in application properties
 
 
+
+
+class
 extra spring jdbc in dependencies
