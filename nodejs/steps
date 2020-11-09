@@ -225,3 +225,123 @@ argument on which they're passed does NOT expect a returned value.
 nnn
 
 
+inside loop this works btif it is outsude the loop\
+error
+
+let useINput:unknown;
+
+
+useINput='tf';
+
+let myy:string;
+
+if(typeof useINput=='string'){
+
+    myy=useINput
+}
+
+console.log(typeof useINput)
+
+unknows is better because unknows forces us to be better rhan
+Any type 
+================================================
+
+
+function generateError(message: string, code: number): never {
+  throw { message: message, errorCode: code };
+  // while (true) {}
+}
+
+console.log(generateError('An error occurred!', 500));
+console.log("ff") // this also doesnt gets printed
+
+this doesnt print undefined because throw actually cancels the script
+============================
+
+tsc app --watch ...it atches the ifle whenever it gets changed
+
+================
+
+
+tsc --init tells compiler ..wherever i am running it we are creating a typescript project
+adn all the subfolder are manager by typescript ,,it compiles ts files of all subfolder
+
+
+
+==========================
+
+ "exclude": [
+    "node_modules" // would be the default
+  ],
+  "include":[
+      "app.ts"
+  ]
+
+  but node mulues are already excluded from compilation
+  this is inside tsconfig file .. it would exclude compilation of supppose app.ts file if we wite it there
+we can do "*.ts" 
+
+or "**/*.ts"any file in folder will be ignored
+
+
+for include we have to add all the files WE ARE ttrying to   comp  ile
+
+
+files:[]
+
+which file we want to include in our project
+
+
+compilatioOption = how files are going to be compiled
+
+
+
+target assumes all dom api are available
+
+like document.select(")
+
+
+lib -- default libraries needs to be included
+
+if lib is uncommentted we need to it can compile dom api or have string and verything has 
+to be explciitely put into that array
+we have to put dom  , es6 and all
+
+allow js == allow js to compile
+with check js ..it will check js not compile..check syntax
+======================================================
+sourcemap
+
+ For ts file to display inside browser
+
+
+ rootdir == if we wont specify then.. tsconfig thinks whole structure wherever file is 
+ saved is done inside dist folder .. so we get whole structure which we dont want
+remove comment will remove comment in js file
+
+
+If we want to exclude  js file being created  emit is used ..it check compilation but doesnt generate js
+
+===================
+
+const mr=document.querySelector('button')!;
+
+exclamation says to typescript we definitely have that object .. dotn worry
+
+
+  "noEmitOnError": true,  says if ts has errors dont generTE IT
+
+  ========================
+
+  In typescript a fucntion parameter cant have any if strict in tsconfig 
+  is there but we if dont have that , no problem then
+
+  we dont have problem with vaiablesbecause variable can be later assigned and
+  thenn\ typescript will do its job
+
+
+  nullcheck to false then null flag is ignored like if document.getelemt if is not there
+
+
+  or if someting might be null we can do if()  then typezcript knows 
+  you are checking wiyh  if
