@@ -345,3 +345,25 @@ exclamation says to typescript we definitely have that object .. dotn worry
 
   or if someting might be null we can do if()  then typezcript knows 
   you are checking wiyh  if
+
+  strictBindCallApply": true, -- if we are passing a function to a variable 
+
+  or venthandler and we want to bind it wil some value--then it check the  above
+  condition
+
+
+  we cant pass a fucntion type with any event , having parameters and not giving it 
+  we have to include or bind parameter
+
+  always strict  checks js fiel has only strict option
+
+  ================================
+
+  additional checks 
+
+  if we ahv unused variable then ..it shows as error
+
+  or if parameter is taken but never used
+
+
+  no implicir return -- uf fucntions returns for a condition but not tottally ..like topcoder
