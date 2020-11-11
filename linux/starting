@@ -3,3 +3,6 @@ git config --global credential.helper store
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 
 sudo apt install nodejs
+
+git config --global user.email "siddharthabhi30@gmail.com"
+  git config --global user.name "siddharthabhi30"
