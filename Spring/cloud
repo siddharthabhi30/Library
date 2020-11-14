@@ -22,3 +22,9 @@ caveats of different microservice
 
 
 we can use environment variables  -- tradeoff security
+
+
+
+
+Client of spring config sgould be 2.3.5 release
+
