@@ -1,1 +1,9 @@
 eureka1 2 and server working
+
+
+
+this is has to be in bootstrap.pro..
+spring.cloud.config.uri=http://localhost:8899
+
+
+in desktop java1 is working
