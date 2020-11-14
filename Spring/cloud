@@ -7,3 +7,18 @@ spring.cloud.config.uri=http://localhost:8899
 
 
 in desktop java1 is working
+
+i cloud config server is always is looking for updated value
+
+
+@RefreshScope -- it says all your dependency needs to be refreshed
+
+
+
+application property can be overwritten only constants needs to be written
+
+
+caveats of different microservice
+
+
+we can use environment variables  -- tradeoff security
