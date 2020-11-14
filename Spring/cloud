@@ -7,3 +7,6 @@ spring.cloud.config.uri=http://localhost:8899
 
 
 in desktop java1 is working
+
+
+Client of spring config sgould be 2.3.5 release
