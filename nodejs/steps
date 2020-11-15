@@ -370,3 +370,15 @@ exclamation says to typescript we definitely have that object .. dotn worry
 
   ==========================================with var only global and functional scopes are there
   not with let works ... let allows block scope
+
+  good to only use :number with function parameters only
+
+  activeHobbies.push(...hobbies);
+// or do aa=['122',...activehobbies]
+
+about rest parameter in the code 
+
+============================
+
+
+deconstruction in typesciptp is like python
