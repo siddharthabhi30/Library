@@ -367,3 +367,6 @@ exclamation says to typescript we definitely have that object .. dotn worry
 
 
   no implicir return -- uf fucntions returns for a condition but not tottally ..like topcoder
+
+  ==========================================with var only global and functional scopes are there
+  not with let works ... let allows block scope
