@@ -386,3 +386,16 @@ deconstruction in typesciptp is like python
 deconstructiomn of object -- in code 
 
 in object no sequence is there
+
+=====================
+
+This tells 
+  constructor(private id: string, public name: string) {
+    // this.id = id;
+    // this.name = n;
+  }
+
+that property of same name should be created and also fill the values
+
+readonbly property when we dont want propery to change after 
+initilization
