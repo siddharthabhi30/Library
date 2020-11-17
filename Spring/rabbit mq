@@ -22,3 +22,7 @@ rabbitmq-plugins.bat enable rabbitmq_management
 // for connecting rabbit mq with java spring
 https://www.javainuse.com/spring/spring-boot-rabbitmq-hello-world
 
+
+
+//for cloud stream
+https://stackabuse.com/spring-cloud-stream-with-rabbitmq-message-driven-microservices/
