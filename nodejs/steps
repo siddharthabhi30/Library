@@ -399,3 +399,43 @@ that property of same name should be created and also fill the values
 
 readonbly property when we dont want propery to change after 
 initilization
+
+rpivate cant be used by even by inhgeriting child classes
+
+
+
+====================================
+
+ class containing abstract method  should be abstract and also 
+ write the return type of the abstract method
+ WE  cant instantiate abstract classes
+
+ =========================
+
+ only static variable of a class can even point to an object of the class
+ we can extend abstact class
+
+
+ ==============================
+
+
+ fiixing structure of an object
+
+//called custom type
+ type Person={
+   name:string;
+   age:nmber;
+   greet(val:str):void;
+ }
+ we can do this instead of using interdface if we want to create custom object
+
+ eg ley my:person;
+ my={
+   name:
+   ......all the implemkentation
+ }
+
+ ============================
+
+
+ readonly can be done with type also
