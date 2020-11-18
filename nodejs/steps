@@ -439,3 +439,8 @@ rpivate cant be used by even by inhgeriting child classes
 
 
  readonly can be done with type also
+
+
+ =============================\
+
+ typeof a={}  --will be only object we cant use thisd
