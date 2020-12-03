@@ -30,3 +30,19 @@ Client of spring config sgould be 2.3.5 release
 
 
 post-config-server --- open for demo
+Refresh scope is for changing value of that class ..so thast it reads the change
+
+https://medium.com/analytics-vidhya/spring-cloud-config-server-and-good-practice-of-refresh-scope-usage-ef65d0fee379
+
+
+
+https://cloud.spring.io/spring-cloud-bus/reference/html/
+
+https://www.devglan.com/spring-cloud/refresh-property-config-runtime#:~:text=A%20simple%20way%20to%20refresh,triggered%20for%20all%20the%20instances.
+
+https://springbootdev.com/2018/07/17/spring-cloud-config-refreshing-the-config-changes-with-spring-cloud-bus-part-2/
+
+in progrres-- status
+
+if eureka is in classpath of a client ....then it is registered to the 
+the eureka server ...no need to write enable client

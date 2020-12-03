@@ -1,0 +1,4 @@
+
+
+//this sets log level top trace
+logging.level.root=TRACE
