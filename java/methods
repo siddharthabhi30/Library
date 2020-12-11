@@ -1,0 +1,5 @@
+Note that Java differentiates overloaded methods with the same name, based on the number and
+type of parameters to that method, not on its return type. That is, if you try to create two methods
+with the same name, same parameter list, but different return types, you’ll get a compiler error.
+The variable names you choose for each parameter to the method are irrelevant—all that matters
+is the number and the type

@@ -1,0 +1,10 @@
+final can be used in a parameter
+
+'c' - 'a'  this can be done on becaus ew
+
+{
+    // whatever code is needed for initialization goes here
+} 
+The Java compiler copies initializer blocks into every 
+constructor. Therefore, this approach can be used to share
+ a block of code between multiple constructors.

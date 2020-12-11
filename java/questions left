@@ -5,7 +5,7 @@ type inference java
 
 learn method reference again
 
-java generic and <t>  angular brackets
+
 callable object 
 
 
@@ -20,4 +20,48 @@ comparator and java
 statefull not stattefull 
 
 
-learn more about streams  unordereed stream ,,sorting using streams
+
+@EnableWebMvc
+
+ @Recover
+
+ @Retryable
+
+ @PostConstruct
+
+
+ regex
+
+ pattern
+
+ requestBody
+
+ SpinXmlElement
+
+  @SuppressWarnings({"unchecked"})
+
+  @Profile("!test")
+
+ Logger logger = LoggerFactory.getLogger(OrderTranslatorHttpUtils.class);
+
+ enum and enum class
+
+ using concrete method in interface
+
+ using default method in the interface
+
+ throuwing error in try catch block also
+
+ correct use of enum
+
+ asserting null
+
+ Assert.assertNotNull
+
+ using trace in logging
+
+ http header
+
+ mock server expect 
+
+ @Springboottest
