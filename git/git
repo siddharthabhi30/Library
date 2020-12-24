@@ -31,3 +31,5 @@ if one one side merge conflit is resolved then on the other side also while merg
 merged his code....overall merge merge conflit wont occure if something is already done on a bracnh with own branch
 
 git branch -d branch_naem to delete a branch
+
+
