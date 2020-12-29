@@ -4,10 +4,10 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 
 sudo apt install nodejs
 
-git config --global user.email "Siddharth.Singh@lntinfotech.com"
-  git config --global user.name "SiddharthSingh10671395"
+git config --global user.email "siddharthabhi30@gmail.com"
+  git config --global user.name "19dec2009aA1@"
   
   
   how to uninstall linux from windows tedchnical ustad
 git config user.name SiddharthSingh10671395
-git config user.email Siddharth.Singh@lntinfotech.com
+git config user.email Siddharth.Singh@lntinfotech.co
