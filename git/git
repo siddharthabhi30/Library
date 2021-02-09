@@ -32,6 +32,10 @@ merged his code....overall merge merge conflit wont occure if something is alrea
 
 git branch -d branch_naem to delete a branch
 
+
+//fetching a branch from origin
+https://stackoverflow.com/questions/9537392/git-fetch-remote-branch#:~:text=Use%20git%20branch%20%2Da%20(both,and%20tags%20for%20that%20remote.
+
 //tut for git clone and branching
 https://stackoverflow.com/questions/4855561/difference-between-git-remote-add-and-git-clone#:~:text=git%20remote%20add%20just%20creates,name%20for%20a%20particular%20URL.&text=git%20clone%20creates%20a%20new,at%20the%20URI%20you%20specify.
 
