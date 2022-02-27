@@ -1,0 +1,85 @@
+diff shows difference between tips of branches
+
++++ is a marker to show changes in first file
+--- marker to show changes in the second file
+
+//changes that are staged only , not unstaged one
+git diff --cached 
+
+
+//all changes staged and unstaged since last commit 
+git diff HEAD
+
+
+//ignore white space change
+git diff -w
+
+//all the logs with sha code
+git log --oneline
+
+//view diff from old_sha_commit from latest working directory
+git diff sha_code
+
+
+//index file shows sha code that we can use for git show..to get actual content
+//till that commit
+
+git show index_sha_code_of_that_file
+
+
+//shows all the merge needs to be done from updated main branch
+git dif feat..main
+
+
+git diff feat main file.txt
+//changes staged 
+git diff --cached commit_sha
+
+
+//incase of merge conflict new commit will be there
+//if feat merges main...later main can just fast forward
+
+
+git fetch bring remote copy
+git pull brings and merges 
+
+
+if there is not a conflict between two branches
+then git will resolve make commits based on time stamp
+
+//we can fetch and make a branch out of it
+git checkout --track origin/feat
+
+//view all the remote branches
+git ls-remote
+
+//fetch branch from remote to local
+git fetch origin feat
+
+
+files on github are
+1.tracked or untracked or ignored
+
+
+git ignore
+
+
+**/bin match any directory
+
+*.zip match any file in repo
+
+
+//remove from git repo
+git rm --cached fileName
+
+//remove from repo and file system
+git rm fileName
+
+
+//if we want git ignore onto our local only, not imp for the project
+//change the file in below location
+.git/info/exclude
+
+
+*.log
+//will ignore log files in root and subfolder
