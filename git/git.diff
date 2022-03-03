@@ -83,3 +83,5 @@ git rm fileName
 
 *.log
 //will ignore log files in root and subfolder
+
+

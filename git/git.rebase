@@ -1,0 +1,18 @@
+//to see from which point we should start  rebase
+//to squalsh all of the commits into single commit
+//give original base of feat created from main
+git merge-base ticket main
+
+
+//will show all the commit, we can specify which commands to pick , which not to pick
+//change pick to squash and manually which messages to pick
+git rebase -i <init commit sha of main when feat was cut>
+
+//rebase actually creates a copy of commits to change the parent
+
+//shows history of what actually happened
+git reflog
+
+//what if main branch is rebased..we need to find 
+//common ancestor and use it for pull
+git pull --rebase

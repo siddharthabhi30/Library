@@ -1,0 +1,30 @@
+if two branches have different text in same line
+even if time stamp is diff.. git won't be able to merge...won't be able to make a thread
+
+
+case :
+ main removed something from a line , not known to feat....merge will not give issue because ?
+ git works line by line
+
+ it sees merging main will change that line in feat, even feat had some changes for that file..still no conflict
+
+ question:what message does a commit carries, is it delta
+
+
+
+ every merge commit is an operation , while merging if that operation can be applied to other branch then a thread history can be made--cherry picked
+
+ eg-> commit 1: changes one->oneish
+ 		commit 2 : chanhes onetish->one ll
+ 		if both commits are in different branches
+ 		then they can't be merged
+
+cherry pick makes creates copy of commit, confusion will happen when cherry pick of one branch actually merges later for the with the same branch..because same changes are done
+
+
+but the sha code will be different from the destination cherry pick
+
+it is a copy but exact number will be different
+
+cherry pick can be applied when it can applied only
+eg- cherry pick can only be applied if that change can happen in that file with that line
