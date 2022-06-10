@@ -5,6 +5,7 @@ git merge-base ticket main
 
 
 //will show all the commit, we can specify which commands to pick , which not to pick
+//if commit seq is [one,two,three] two three should be squashed not [one,two]
 //change pick to squash and manually which messages to pick
 git rebase -i <init commit sha of main when feat was cut>
 
