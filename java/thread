@@ -7,3 +7,8 @@ we can use sleep between two start function of thread so that they occur turn by
 
 wait is used with sync so that we can tell other thread to wait for many reason ,,,
 we want other thread to wait for infinite  time till we notify from other thread
+
+
+java memory reodering
+
+https://stackoverflow.com/questions/52648800/how-to-demonstrate-java-instruction-reordering-problems
