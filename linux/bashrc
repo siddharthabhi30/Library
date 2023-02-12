@@ -1,0 +1,47 @@
+document  
+
+https://www.ibm.com/docs/en/aix/7.2?topic=files-env-file
+
+
+https://unix.stackexchange.com/questions/117467/how-to-permanently-set-environmental-variables
+
+https://www.thegeekstuff.com/2008/10/execution-sequence-for-bash_profile-bashrc-bash_login-profile-and-bash_logout/
+
+https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/
+
+
+https://www.thegeekstuff.com/2008/10/execution-sequence-for-bash_profile-bashrc-bash_login-profile-and-bash_logout/
+
+
+ /etc/environment
+
+
+ /etc/profile
+
+if ~/.bash_profile
+
+else:
+    
+    if : ~/.bash_login
+
+    else : .profile or ~/.bash_profile
+
+.bashrc runs for interactive non login shell
+
+ .env
+
+
+
+ grep -rIH  'java-version'
+
+ grep -rl "/usr/lib/jvm/java-version" /path
+
+ grep -Hrn '/usr/lib/jvm/java-version' ~
+
+ /opt/gradle/gradle-7.6/bin
+
+----
+
+export JAVA_HOME=/usr/lib/jvm/java-17-oracle
+
+export PATH=$JAVA_HOME:$PATH
