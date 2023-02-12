@@ -78,3 +78,60 @@ NAT
     layer 3 
     translate current IP to ip of router, router does the translation
     
+
+netcat is a thin layer ove tcp
+	it can ping a port of a server but it doesn't know what http is. Although webserver can send respond if input text looks like http header
+
+	'<!doctype html><html><body><h1>A webpage served with netcat</h1></body></html>'
+
+	echo -e 'HTTP/1.1 302 Moved\r\nLocation: https://www.eff.org/' | nc -l 2345
+
+
+
+while true; do echo -e "HTTP/1.1 302 Moved\r\nLocation: https://www.eff.org/" | nc -vl -p 5551; done
+
+
+
+DNS
+
+    host www.udacity.com
+        the command gives us the information of the dns server, i.e what data is it storing.
+
+
+subnet mask is used to identify network host address + atcual computer address
+
+
+ip addr show:
+    THis will show what network interfaces my computer has
+
+loopback interface is used 
+    it has fixed ip address 
+    it is used by programs to connect and talk to other interfaces.
+
+ip route show default
+    gives us the default address of the gateway
+
+
+We have private and public network addresses
+    private address :
+        10.0.0.0/8
+        172.16.0.0/12
+        192.168.0.0/16
+        these should never be used as a private IP address.
+
+sudo tcpdump -n host 8.8.8.8
+    We can monitor network packets going in and out to above server from out machine
+
+tcpdump -n port 53
+    logs dns tr 
+
+    https://medium.com/swlh/introduction-to-tcpdump-635653f56177
+
+    https://support.cpanel.net/hc/en-us/articles/4402800122007-How-to-use-ncat-and-tcpdump-to-test-network-connections
+
+
+tcpdump -i enp35s0 -nn port 49199
+    We can tell tcpdump that we want to look at <port no> and  capture all the packets going throught using -i interface.
+
+    change enp... to lo(loopback) ans use nc to connect.
+    
