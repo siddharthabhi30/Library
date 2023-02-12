@@ -1,0 +1,80 @@
+OSI model
+
+1. physical layer
+    wire or wireless
+2. data link layer
+    specify how to move info using cables
+    ip address
+
+3. network layer
+    to comm with other servers across a network
+
+4. Transport layer
+    sets up a session using TCP so that servers can comm.
+    
+5. 
+
+6. presentation layer
+
+
+7. application layer
+    http and https, websockets, email protocal, database protocol 
+
+======================================
+
+LDAP
+
+Transport layer
+    
+    three way handshake for connection
+
+    four way fin-ack
+
+    tcp reset - > one way handshake
+
+port numbers
+    we have different ranges of port numbers
+    1. well known 
+    
+        https uses 443 port number i.e application layer
+
+        https uses TCP protocol i.e layer - 4
+
+        TCP in turn uses IP i.e layer - 7 
+
+    2. registered 
+    3. ephemeral
+
+
+IPv4 addressing
+
+    ip full partition = networking portion + host portion
+
+    classless addressing
+        subnet mask 
+            it tells what portion are network portion and which part are host portion    
+    classful addressing
+
+Subnetting networks
+
+IPv6
+    it has 
+    unicast address 
+        1. global unicast address
+        2. Link local address
+            local addresses
+            local is to connect to local devices.
+        3. loopback address
+
+    multicast address
+        one to many comm
+    
+    anycast address
+        one of ipv6 address
+        load balancer
+    
+
+NAT
+    layer 3 
+    translate current IP to ip of router, router does the translation
+    
