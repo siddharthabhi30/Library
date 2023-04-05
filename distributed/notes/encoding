@@ -1,0 +1,16 @@
+https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c1/c1s2/c1s2v7/
+
+    this video is important.
+
+    it gives us the context of how encoding can be done efficiently
+    
+    for eg an event with probability of 50% only needs one to bit to encode.
+        Theoritically thinking in a set of events , a event with 50% probability divides the complete
+        set into two parts, we can just tell if we have data of first set(50% of data) of second set.
+        The second set may have different events for eg [event_1_50%, event2_25%, event_3_25%]
+        In above case we can only know if event2 occured if we batch the data with cardinality of 4.
+        By 4 , 2 bits used.  Using 2 bits we can tell if info is from which out of 4 set.
+
+        11 -> this tells us that we are given information about a set of event in which all are divided into four set. Note one event can have more than 25% probability.Its just the actual value which "11" says has 25% of the prob. 11 tells us 4 th set's element when we divide the set in 4 parts is the answer. Receiver of "11" should have this information that which is 4th element when whole experiment outcomes are divide equally four times.
+
+    Variable length encoding should work great when outcome size is not increasing. If it is then an event with 50% prob can become 1% leaving the encoding mechanism to be inefficient. 

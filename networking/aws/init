@@ -1,0 +1,25 @@
+NACL are top level restricting layer for VPC, we should allow all traffic inbound and outbound in NACL.
+
+Route tables specify if a subnet can be connected to the internet. So there should be a route to internet gateway as target and source as 0.0.0.0/0- add this in route table of a subnet.
+
+end point is the security group which should have ports open for http or ssh connection.
+
+Nginx installation
+
+    https://stackoverflow.com/questions/35868976/nginx-service-failed-because-the-control-process-exited
+
+node js server with certificate
+    https://deviloper.in/ssl-certificate-in-nodejs
+
+    SSL cert should be created by the link below
+    besically 
+
+    Now it uses Subject Alternative Names (SAN) instead.
+
+    SAN must contain proper DNS or IP entry not CN (common name).
+
+    https://serverfault.com/questions/880804/can-not-get-rid-of-neterr-cert-common-name-invalid-error-in-chrome-with-self
+
+
+VPC tutorial
+    https://4sysops.com/archives/aws-vp-setup-ec2-instance-test-connectivity/

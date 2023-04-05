@@ -8,7 +8,7 @@ https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/
 
 https://www.youtube.com/watch?v=R0tFDXBZvKI&list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
 
-https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c6/c6s3/
+
 
 https://pdos.csail.mit.edu/6.824/schedule.html
 
@@ -16,3 +16,35 @@ https://pdos.csail.mit.edu/6.824/schedule.html
 https://levelup.gitconnected.com/lessons-learnt-from-scaling-memcached-in-production-86778ab616c7
 
 
+https://qr.ae/pr9LvH
+
+6.004
+
+    https://www.youtube.com/watch?v=hf0g3Ccfer8&list=PLXc4eBW8pSzfZzHm1EVdw280WODBeS-0h&index=13
+
+    https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c6/c6s3/
+
+
+overall
+    https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/
+
+
+    https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf
+
+
+    https://www.cockroachlabs.com/blog/limits-of-the-cap-theorem/
+
+
+    https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
+
+    dynamo
+        https://stackoverflow.com/questions/58863682/are-dynamodb-updates-strongly-consistent
+
+https://www.alexdebrie.com/posts/database-consistency/
+
+https://github.com/ept/hermitage
+
+http://www.bailis.org/blog/linearizability-versus-serializability/
+
+
+https://www.scylladb.com/product/benchmarks/dynamodb-benchmark/

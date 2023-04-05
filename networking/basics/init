@@ -135,3 +135,8 @@ tcpdump -i enp35s0 -nn port 49199
 
     change enp... to lo(loopback) ans use nc to connect.
     
+traceroute 
+    to trace all the network did it take to reach a destination
+
+    
+    
