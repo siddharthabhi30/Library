@@ -1,0 +1,19 @@
+Information Content and Entropy
+ 1. 3
+ 2. 2
+ 3. log 1.5
+ 4. 4 values
+ 5. NCr
+ 6. will have received infomration of 5 bits
+ 7. Unable to answer
+ 8. 16 types, 3 bit * 2 
+ 9. 23 info
+
+ 10. 2 power 3
+ 
+---
+
+Variable length encoding
+    1. p = 0.65. The answer would be log(1/p)
+
+    k. No answer. Could be log(1/(p)) where p is 0.29

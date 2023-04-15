@@ -1,0 +1,14 @@
+//create zip and jar files
+
+https://gist.github.com/daggerok/4f5f63448f24d991c273165615baa39a
+
+
+    val createDeploymentPackage = task<Zip>("createDeploymentPackage") {
+        destinationDirectory.set(file("packaging_additional_published_artifacts"))
+        archiveFileName.set("sds.zip")
+        from(compileJava)
+        from(processResources)
+        into("lib") {
+            from(configurations.runtimeClasspath)
+        }
+    }
