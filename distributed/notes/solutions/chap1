@@ -14,6 +14,45 @@ Information Content and Entropy
 ---
 
 Variable length encoding
-    1. p = 0.65. The answer would be log(1/p)
+    f. p = 0.65. The answer would be log(1/p)
 
     k. No answer. Could be log(1/(p)) where p is 0.29
+
+    I answer is option 5 but don't know why fixed length encoding is asked here.
+
+
+    j 3
+
+    k. log(1/p)  p=.21 unsure
+
+    L. ? Think about it, 5 messages make encoding fo length 15. With difference of 5
+
+    M. simply build huffman encoding graph
+         for average, just multiply p*(length in huffman)
+
+    O. D
+==========
+
+Error detection and correction
+
+A. 1 bit error
+
+B None Wrong answer think about it.
+
+C 1 detected 0 corrected. Wrong answer
+
+D. 1
+
+E Yes, No wrong again
+
+F detected 3 corrected 1
+
+G. 3
+
+H. None
+
+I. Px1
+
+J. D00
+
+I Pxx

@@ -1,0 +1,14 @@
+Positive noise margin
+    It means the range of voltage in input should be greater than range of voltage in 
+    the output.
+
+    A component may recive more noise but should produce less range of noise. Is the basis
+    of digital circuit.
+
+    If a component produces more noise than it received then the noise margin is negative.
+
+    we call this variable gain. 
+        It is change in output voltage to change in input voltage.
+
+    devices which obey this feature is called non linear devices.
+    

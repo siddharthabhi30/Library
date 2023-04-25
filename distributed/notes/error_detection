@@ -1,0 +1,8 @@
+even parity
+    Extra bits are added to the original encoding such that number of 1s are even
+    extra bits are added for correct error detection
+
+to detect E bit error we need e+1 hamming distance.
+
+
+to correct upto E error we need 2e+1 as hamming distance
