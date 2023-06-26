@@ -1,0 +1,21 @@
+VPC is attached to a gateway (one to one mapping)
+
+
+
+a subnet is attached to one route table
+
+a route table by default says that a subnet can communicate with all subnets in the vpc
+
+
+ Unlike Security Groups, NACLs operate at the subnet level and are stateless, 
+ whereas Security Groups operate at the instance level and are stateful.
+
+
+ NACL is attached to a subnet
+
+ instance -> security grp -> subnet -> NACL -> routing table
+
+In Private NACL 
+    We can say that it can accept traffic from a subnet
+
+    NACL are stateless
