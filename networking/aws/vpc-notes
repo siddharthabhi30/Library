@@ -19,3 +19,41 @@ In Private NACL
     We can say that it can accept traffic from a subnet
 
     NACL are stateless
+
+In private subnet
+
+    security group will say 
+        allow inbound from public subnet CIDR for ssh or all can ssh into the security group
+
+    nacl will say 
+        allow inbound and outbound from public subnet CIDR
+
+    in the route table
+        don't allow connection to the internet.
+
+        allow connection from the public subnet or all subnet within the VPC
+
+    actually route table allow connection from all subnets.
+
+
+In public subnet
+
+    security group will say 
+        allow inbound from local mac ip for ssh port 22
+
+    nacl will say 
+        allow inbound and outbound from mac ip address
+
+        allow in bound andoutbound with private subnet 
+
+    in the route table
+        don't allow connection to the internet.
+
+        allow connection from the public subnet or all subnet within the VPC
+
+    actually route table allow connection from all subnets.
+
+
+deleting a vpc resources
+
+https://stackoverflow.com/questions/37232965/issue-when-trying-to-delete-vpc-and-network-interface

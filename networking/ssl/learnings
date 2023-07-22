@@ -1,1 +1,22 @@
-https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/
+certificates are not encoded by private key
+
+some data which is plainly available in the certificate is encoded.
+
+The client then descripts the data using certificates pubkic key 
+
+But how will client verify that ceritfiate is valid.
+
+    Certificate also contains the signing authority.
+
+    Signing authority may have left its signature (encoded "I am friend" by its own private key)
+
+    The system may already have the public key of "I am friend"
+
+
+
+
+
+How certificates are actually verified
+
+    https://stackoverflow.com/questions/188266/how-are-ssl-certifica tes-verified
+    

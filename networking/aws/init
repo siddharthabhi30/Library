@@ -25,3 +25,67 @@ VPC tutorial
     https://4sysops.com/archives/aws-vp-setup-ec2-instance-test-connectivity/
 
     https://4sysops.com/archives/aws-vpc-overview-setup-subnets/
+
+ACM and route 53 tutorial
+
+    https://www.youtube.com/watch?v=JQP96EjRM98
+
+    We create a target group
+        Target group says that any ec2 instances running inside it will have 
+  
+        port 80 and http as listener.
+
+        If the target group wanted to point at a docker image running on EC2, 
+        then the config will be listening to port 8080 of the ec2.
+
+        Target group is just a contract between the load balancer the ec2/docker.
+
+        Target group says to load balancer that forward your port 80 request to port 80 request of my ec2/docker.
+
+
+    Route 53 just forward domain name request to load balancer
+
+    What is Named server
+
+        https://www.cloudflare.com/en-gb/learning/dns/dns-records/dns-ns-record/
+
+    DNS steps https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/
+
+    1. Recursor calls root nameserver.
+
+    2. Root name server contains (.com -> IP).
+
+    3. .com's IP storing machine is called TLD. which contains (ec2.amazon.com -> NS IP)
+
+    3. NS of ec2.amazon.com contains (IP of  store where actual IP of ec2.amazon.com is stored)
+
+    4. We reach IP of storage server. It contains actual IP of ec2.amzon.com.
+
+    5. User gets the IP of ec2.amaozn.com 
+
+
+    We cache IP address of ec2.amazon.com using the TTL.
+
+    THe TTL is taken from Authorotative NS. 
+
+    TTL value is also stored by all the servers. They tell the client what TTL to keep when caching their records.
+
+    TLD stored IP of NS for a domain
+
+
+    CName is stored inside the NS
+
+    Amazon route 53 creates named server for every new domain.
+
+    Zone sniping:
+
+        if we are registering server.prod.example.dev in the NS and we don't own example.dev then someone can route our
+        traffic to their named server. They can write in their named server that route every request to their fishy server.
+
+
+
+
+
+
+    
+
