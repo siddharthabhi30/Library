@@ -20,6 +20,8 @@ In Private NACL
 
     NACL are stateless
 
+Subnet is attached to a route table.
+
 In private subnet
 
     security group will say 
@@ -29,6 +31,8 @@ In private subnet
         allow inbound and outbound from public subnet CIDR
 
     in the route table
+
+
         don't allow connection to the internet.
 
         allow connection from the public subnet or all subnet within the VPC
@@ -47,7 +51,7 @@ In public subnet
         allow in bound andoutbound with private subnet 
 
     in the route table
-        don't allow connection to the internet.
+         allow connection to the internet.
 
         allow connection from the public subnet or all subnet within the VPC
 
