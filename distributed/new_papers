@@ -1,4 +1,7 @@
- 1. Byzan- tine fault tolerance [24] in chubby paper
+Chubby paper references
 
- 2. Bir- rell et al
-    http://birrell.org/andrew/papers/024-DatabasesPaper-SOSP.pdf
+     1. Byzan- tine fault tolerance [24] in chubby paper
+
+     2. Birrell et al
+
+     3. Boxwood
