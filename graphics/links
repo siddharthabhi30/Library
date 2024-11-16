@@ -36,6 +36,12 @@ End to end learning path
 
     Use https://github.com/ocornut/imgui to add a GUI.
 
+    https://github.com/gaoxiang12/slambook-en/tree/master?tab=readme-ov-file
+
+        Use this
+
+    contact him - https://www.youtube.com/watch?v=ul6pXRGKmco
+
 Libraries
 
     https://openscenegraph.github.io/openscenegraph.io/
@@ -47,6 +53,8 @@ Libraries
     QGraphicsScene
 
         For 3d rendering. 
+
+    https://github.com/TixiaoShan/LIO-SAM
 
 MAth books
 
